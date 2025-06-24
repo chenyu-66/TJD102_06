@@ -454,7 +454,7 @@ body{}
     line-height: 1.6;
     margin-bottom: 6px;
 }
-/*----------第二頁醫師團隊-----------------*/
+/*----------第二頁醫師團隊(皮秒)-----------------*/
 .doctor-sec{
     background-color: #F7F7F7;
     width: 1440px;
@@ -464,53 +464,382 @@ body{}
 
 .doctor-sec h1{
     font-family: noto sans hk;
-    font-size: 32PX;
+    font-size: 28PX;
     color: #B78F7B;
     line-height: 1.6;
     padding: 10px 20px;
 }
-.doctor-sec h2{
-    font-family: Adamina;
-    font-size: 20px;
-    color: #B78F7B; 
-    padding: 0 20px;
+.dlistall{
+    background-image: url("第二頁/第二頁背景色.png");
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+
+    /* position: relative; */
 }
 
+.dlist1{
+    display: flex;      
+    padding-left: 1000px;
+    padding-top: 10px;
+    /* position: absolute; */
+    /* z-index: 10; */
+}
+.dlist1 h2{
+    font-family: noto sans hk;
+    font-size: 20PX;
+    line-height: 1.6;
+    margin-top: 140px;
+    padding-left: 5px;
+    /* position: relative; */
+}
+.dlist1 img{
+    width: 200px;
+    margin-top: 10px;
+}
+.dlist1-1{
+    background-color: #FFFFF0;
+    width: 550px;
+    height: 170px;
+}
+.dlist1-1{
+    display: flex;
+    gap: 25px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-top: -23px;
+}
+.listA{
+    /* border: 1px solid; */
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.listp1 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    margin-bottom: 5px;
+}
 
+.listp2 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.listp2 li::before{
+    content: "•";
+    color: #333;
+}
+.listB{
+    height: 100px;
+    width: 170px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.listp3 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    margin-bottom: 10px;
+}
+.listp14{
+    display: flex;
+    gap: 10px;
+}
+.listp14 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.listp14 p{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+/*----------第二頁醫師團隊(美白)-----------------*/
+.whiteall{
+    background-image: url("第二頁/第二頁背景色.png");
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+}
+.whiteA{
+    display: flex;
+}
+.whiteA img{
+    width: 230px;
+    padding-left: 40px;
+}
+.whiteA h3{
+    font-family: noto sans hk;
+    font-size: 20PX;
+    line-height: 1.6;
+    margin-top: 115px;
+    padding-left: 10px;
+}
+.dlist1-2{
+    background-color: #FFFFF0;
+    width: 550px;
+    height: 170px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.whiteB{
+    width: 260px;
+    height: 100px;
+    margin-top: 40px;
+    padding-left: 15px;
+}
+.wlist1 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    margin-bottom: 5px;
+}
+.wlist2 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.wlist2 li::before{
+    content: "•";
+    color: #88827D;
+}
+.whiteC{
+    width: 200px;
+    height: 100px;
+    margin-top: 40px;
+}
+.wlist3 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+.wlist4{
+    display: flex;
+    gap: 10px;
+}
+.wlist4 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.wlist4 p{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+/*----------第二頁醫師團隊(除毛)-----------------*/
+.hairall{
+    background-image: url("第二頁/第二頁背景色.png");
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+}
+.hlist1{
+    display: flex;
+    padding-left: 980px;
+    padding-top: 10px;
+}
+.hlist1 h4{
+    font-family: noto sans hk;
+    font-size: 20PX;
+    line-height: 1.6;
+    margin-top: 90px;
+}
+.hlist1 img{
+    width: 230px;
+}
+.dlist1-3{
+    background-color: #FFFFF0;
+    width: 550px;
+    height: 170px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-top: -23px;
+}
+.hlistA{
+    width: 200px;
+    height: 50px;
+    margin-top: 47px;
+    padding-left: 20px;
+}
+.listh1 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.listh2 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.listh2 li::before{
+    content: "•";
+    color: #88827D;
+}
+.hlistB{
+    width: 200px;
+    height: 100px;
+    margin-top: 45px;
+    padding-left: 47px;
+}
+.listh3 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+.listh4{
+    display: flex;
+    gap: 10px;
+}
+.listh4 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.listh4 p{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+/*----------第二頁醫師團隊(玻尿酸)-----------------*/
+.hyaall{
+    background-image: url("第二頁/第二頁背景色.png");
+    width: 1440px;
+    height: 450px;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hyaA{
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+}
+.hyaA img{
+    width: 230px;
+}
+.hyaA h5{
+    font-family: noto sans hk;
+    font-size: 20PX;
+    line-height: 1.6;
+    margin-top: 120px;
+}
+.hylist1-4{
+    background-color: #FFFFF0;
+    width: 550px;
+    height: 170px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 26px;
+}
+.hyaB{
+    margin-top: 35px;
+    padding-left: 25px;
+}
+.hyalist1 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.hyalist2 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.hyalist2 li::before{
+    content: "•";
+    color: #88827D;
+}
+.hyaC{
+    margin-top: 35px;
+    padding-left: 20px;
+}
+.hyalist3 p{
+    font-family: noto sans hk;
+    font-size: 19px;
+    color: #88827D;
+    line-height: 1.6;
+}
+.hyalist4{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.hyalist4 li{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.hyalist4 p{
+    font-family: noto sans hk;
+    font-size: 16px;
+    color: #88827D;
+    background-color:  #E7E3DB;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
 /*----------第三頁服務項目---------------*/
 .picture{
     background-color: #F7F7F7;
@@ -530,7 +859,6 @@ body{}
     padding-top: 30px;
     letter-spacing: 5px;
 }
-
 .picture h2{
     font-family: Adamina;
     font-size: 22px;
@@ -539,7 +867,6 @@ body{}
     /* line-height: 1.6; */
     padding-left: 80px;
 }
-
 .picall{
     background-color: #FFFFF0;
     width: 1440px;
@@ -547,11 +874,9 @@ body{}
     display: flex;
     gap: 50px;
 }
-
 .pic-1{
     height: 400px;
 }
-
 .pic-1 img{
     width: 170px;
     margin-top: 50px;
@@ -595,7 +920,6 @@ body{}
     background-color: #333;
     color: white;
 }
-
 /*--------第三頁第二章圖-----------------*/
 .second{
     background-color: #F7F7F7;
@@ -710,7 +1034,6 @@ body{}
     background-color: #333;
     color: white;
 }
-
 /*--------第三頁第四章圖-----------------*/
 .forth{
     background-color: #F7F7F7;
@@ -766,7 +1089,7 @@ body{}
 .for-2 img{
     width: 200px;
 }
-    
+
 /*--------第三頁之一皮秒頁面開始-----------------*/
 .p-top{
     background-color: #F7F7F7;
@@ -774,7 +1097,6 @@ body{}
     height: 250px;
     margin: 0 auto;
 }
-
 .p-top1 h1{
     font-family: noto sans hk;
     font-size: 32px;
@@ -784,7 +1106,6 @@ body{}
     padding-top: 30px;
     font-weight: bold;
 }
-
 .p-top1 p{
     font-family: noto sans hk;
     font-size: 16px;
@@ -793,7 +1114,6 @@ body{}
     text-align: center;
     margin-top: 30px;
 }
-
 .machine{
     background-color: #FFFFF0;
     width: 1440px;
@@ -819,7 +1139,6 @@ body{}
     margin-top: 180px;
     margin-left: 35px;
 }
-
 /*---------注意事項----------------*/
 .attention{
     background-color: #F7F7F7;
@@ -1503,14 +1822,175 @@ body{}
     line-height: 1.6;
     text-align: center;
 }
+/*-----------聯絡我們------------------*/
+.cspace{
+    background-color: #FFFFF0;
+    width: 1440px;
+    height: 350px;
+    margin: 0 auto;
+}
 
+.csphoto{
+    display: flex;
+    justify-content: space-between;
+}
 
+.csphoto h1{
+    font-family: noto sans hk;
+    font-size: 36px;
+    color: #88827D;
+    line-height: 1.6;
+    padding-left: 150px;
+    margin-top: 100px;
+}
+.csphoto img{
+    width: 280px;
+    margin-top: 55px;
+    padding-right: 200px;
+}
+/*-----------表單------------------*/
+.contaceall{
+    background-color: #FFFFF0;
+    width: 1440px;
+    height: 828px;
+    margin: 0 auto;
+    font-family: noto sans hk, adamina;
+}
+.contcat-f{
+    background-color: #F7F7F7;
+    width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    
+    border-radius: 40px;
+    border: 1px solid #ccc;
+}
+.CGall{
+    display: flex;
+    gap: 20px;
+}
+.contactA{
+    padding-top: 40px;
+    width: 400px;
+    padding-left: 64px;
+}
+.contactA label{
+    font-family: noto sans hk;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 9px;
+}
+.contactA input{
+    width: 380px;
+    padding-top: 10px;
+    margin-left: 9px;
+    border: 1px solid #ccc;
+}
+.genderA{
+    padding-left: 200px;
+    width: 200px;
+    height: 32px;
+    margin-top: 42px;
+    border: none;
+}
 
+.genderA label{
+    font-family: noto sans hk;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
+.genderA select{
+    font-family: noto sans hk;
+    font-size: 16px;
+    width: 388px;
+}
+.contcat-f label {
+  color: #88827D;
+  margin-bottom: 12px;
+}
+.contcat-f input[type="tel"], .contcat-f textarea {
+  padding: 10px;
+  font-size: 146x;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
+.center{
+    width: 100px;
+    margin-top: 30px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.center label{
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+.center input{
+    border: 1px solid #ccc;
+    width: 1000px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.timeconA{
+    width: 600px;
+    margin-top: 40px;
+}
+.timecona label{
+    font-family: noto sans hk;
+    font-size: 18px;
+    padding-left: 70px;
+    line-height: 1.6;
+}
+.time {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+.time label{
+    font-size: 16px;
+    color: #5c5c5c;
+    padding-left: 70px;
+}
+.messall{
+    padding-left: 70px;
+    margin-top: 10px;
+}
 
+.messA label{
+    font-family: noto sans hk;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.messB textarea{
+    margin-top: 10px;
+    width: 1000px;
+    height: 200px;
+}
+.required {
+  color: red;
+  margin-left: 4px;
+}
 
-
-
+button{
+    width: 100px;
+    height: 35px;
+    margin-left: 72px;
+    margin-top: 10px;
+    font-family: noto sans hk;
+    font-size: 15px;
+    background-color: #E3DFD9;
+    color: #88827D;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: #5c5c5c;
+    color: white;
+}
 
 
 
