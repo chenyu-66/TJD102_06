@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>contact</title>
+    <link rel="icon" href="../figma/首頁/iconface.png">
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
@@ -40,8 +41,7 @@
 <section class="cspace">
     <div class="csphoto">
         <h1>預約諮詢</h1>
-        <!-- <p>CONTACT</p> -->
-        <img src="聯絡照片.jpg" alt="">
+        <img src="環境照片/3.jpg" alt="">
     </div>
 </section>
 <!------------表單----------------------->
@@ -52,13 +52,19 @@
                 <label for="name">姓名<span class="required">*</span></label>
                 <input type="text" id="name" name="name"required>
             </div>
+
             <div class="genderA">
-                <label for="gender">性別<span class="required">*</span></label>
-                <select id="gender" name="gender"required>
-                    <option value="">-</option>
-                    <option value="女">女</option>
-                    <option value="男">男</option>
-                </select>
+                <label>性別<span class="required">*</span></label><br>
+  
+                <label>
+                    <input type="radio" name="gender" value="女" required>
+                     女
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="男">
+                    男
+                </label>
             </div>
 
         </div>

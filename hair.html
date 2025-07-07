@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Yaoyan Clinic</title>
+    <link rel="icon" href="../figma/首頁/iconface.png">
     <link rel="stylesheet" href="home.css">
 </head>
 
@@ -62,47 +63,51 @@
     
 </section>
 <!-----------注意事項------------------>
- <section class="attention1">
-        <h2>注意事項</h2>
+<input type="radio" class="tab-radio" name="notice-tab" id="notice1" checked>
+<input type="radio" class="tab-radio" name="notice-tab" id="notice2">
 
-        <div class="beforea">
-            <h3>術前注意事項</h3>
+    <div class="top-tab">
+        <label for="notice1">術前注意事項</label>
+        <label for="notice2">術後注意事項</label>
+    </div>
+    <!-- 內容 -->
+    <div class="tab-content">
+        <!-- 術前 -->
+        <div class="tab-panel notice-pre">
             <ul>
-                <li>治療部位需於前一天順向刮毛，並避免過度曝曬。</li>
-                <li>懷孕或特殊體質請先諮詢專業醫師再進行療程安排。</li>
+                <li>◎ 治療部位需於前一天順向刮毛，並避免過度曝曬。</li>
+                <li>◎ 懷孕或特殊體質請先諮詢專業醫師再進行療程安排。</li>
             </ul>
         </div>
-        <div class="afterb">
-            <h3>術後注意事項</h3>
+        <!-- 術後 -->
+        <div class="tab-panel notice-post">
             <ul>
-                <li>可能會有輕微紅腫，這是正常，通常2天內會消退。</li>
-                <li>術後可配合冰敷、以減少溫熱感。</li>
-                <li>一週內避免高溫和曝曬，如蒸汽浴、烤箱。</li>
-                <li>一週內，治療部位溫水清洗就好，避免使用酸類產品。</li>
+                <li>◎ 可能會有輕微紅腫，這是正常，通常2天內會消退。</li>
+                <li>◎ 術後可配合冰敷、以減少溫熱感。</li>
+                <li>◎ 一週內避免高溫和曝曬，如蒸汽浴、烤箱。</li>
+                <li>◎ 一週內，治療部位溫水清洗就好，避免使用酸類產品。</li>
             </ul>
         </div>
-
-    </section>
+    </div> 
 <!-------------案例分享---------------------->
-<section class="h-share">
+<section class="share">
         <h4>案例分享</h4>
-
-        <div class="h-photoall">
-            <div class="hp1">
-                <img src="第七頁/a.svg" alt="">
+        <div class="photoall">
+            <div class="photo1">
+                <img src="第七頁/a.svg" alt="腿部前後對比">
                 <p>腿部前後對比</p>
-            </div>    
-            <div class="hp2">
-                <img src="第七頁/Frame 394.svg" alt="">
+            </div> 
+            <div class="photo2">
+                <img src="第七頁/Frame 394.svg" alt="腋下前後對比">
                 <p>腋下前後對比</p>
             </div>
-            <div class="hp3">
-                <img src="第七頁/image 39.png" alt="">
+            <div class="photo3">
+                <img src="第七頁/image 39.png" alt="手部前後對比">
                 <p>手部前後對比</p>
             </div>
         </div>
-
     </section>
+
 <!-------------插入地圖---------------------->
 <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.5055587779661!2d121.54384147116262!3d25.033696772788915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd30b06f9fd%3A0x9a5657a88cfda4bd!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5L-h576p6Lev5Zub5q61MeiZnw!5e0!3m2!1szh-TW!2stw!4v1750233844998!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
