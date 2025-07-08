@@ -414,386 +414,221 @@ body{
     line-height: 1.6;
     margin-bottom: 6px;
 }
-/*----------第二頁醫師團隊(皮秒)-----------------*/
+/*----------大標題-----------------*/
 .doctor-sec{
     background-color: #F7F7F7;
     width: 100%;
     max-width: 1200px;
-    height: 100px;
+    height: 270px;
     margin: 0 auto;
 }
-.doctor-sec h1{
-    font-family: noto sans hk;
-    font-size: 28PX;
-    color: #B78F7B;
-    line-height: 1.6;
-    padding: 20px 40px;
+.four img{
+    display: block;
+    margin: 0 auto;
+}
+/*----------第二頁醫師團隊(皮秒)-----------------*/
+.dlistall{
+    background-color: #FFFFF0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.one{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     
 }
-.dlistall{
-    background-image: url("第二頁/第二頁背景色.png");
-    width: 1440px;
-    height: 430px;
-    margin: 0 auto;
+.doctor-card{
+    margin: 10px 0;
 }
-
+.doctor-info {
+  display: none;
+}
 .dlist1{
-    display: flex;      
-    padding-left: 1000px;
-    padding-top: 10px;
-}
-.dlist1 h2{
-    font-family: noto sans hk;
-    font-size: 20PX;
-    line-height: 1.6;
-    margin-top: 140px;
-    padding-left: 5px;
+    display: flex;
+    width: 310px;
 }
 .dlist1 img{
     width: 200px;
-    margin-top: 10px;
-}
-.dlist1-1{
-    background-color: #FFFFF0;
-    width: 550px;
-    height: 170px;
-}
-.dlist1-1{
-    display: flex;
-    gap: 25px;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: 120px;
-    margin-top: -23px;
-}
-.listA{
-    width: 250px;
-    height: 100px;
-    margin-top: 50px;
-    padding-left: 20px;
-}
-.listp1 p{
-    font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    margin-bottom: 5px;
-}
-
-.listp2 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    line-height: 1.6;
-}
-.listp2 li::before{
-    content: "•";
-    color: #333;
-}
-.listB{
-    height: 100px;
-    width: 170px;
-    margin-top: 50px;
-    padding-left: 20px;
-}
-.listp3 p{
-    font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    margin-bottom: 10px;
-}
-.listp14{
-    display: flex;
-    gap: 10px;
-}
-.listp14 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-.listp14 p{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-/*----------第二頁醫師團隊(美白)-----------------*/
-.whiteall{
-    background-image: url("第二頁/第二頁背景色.png");
-    width: 1440px;
-    height: 430px;
-    margin: 0 auto;
-}
-.whiteA{
-    display: flex;
-}
-.whiteA img{
-    width: 230px;
-    padding-left: 40px;
-}
-.whiteA h3{
-    font-family: noto sans hk;
-    font-size: 20PX;
-    line-height: 1.6;
-    margin-top: 115px;
-    padding-left: 10px;
-}
-.dlist1-2{
-    background-color: #FFFFF0;
-    width: 550px;
-    height: 170px;
-    display: flex;
-    border-radius: 20px;
-    margin-left: 30px;
-}
-.whiteB{
-    width: 260px;
-    height: 100px;
-    margin-top: 40px;
-    padding-left: 15px;
-}
-.wlist1 p{
-    font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    margin-bottom: 5px;
-}
-.wlist2 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    line-height: 1.6;
-}
-.wlist2 li::before{
-    content: "•";
-    color: #88827D;
-}
-.whiteC{
-    width: 200px;
-    height: 100px;
-    margin-top: 40px;
-}
-.wlist3 p{
-    font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    margin-bottom: 5px;
-    line-height: 1.6;
-}
-.wlist4{
-    display: flex;
-    gap: 10px;
-}
-.wlist4 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-.wlist4 p{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-/*----------第二頁醫師團隊(除毛)-----------------*/
-.hairall{
-    background-image: url("第二頁/第二頁背景色.png");
-    width: 1440px;
-    height: 430px;
-    margin: 0 auto;
-}
-.hlist1{
-    display: flex;
-    padding-left: 980px;
-    padding-top: 10px;
-}
-.hlist1 h4{
-    font-family: noto sans hk;
-    font-size: 20PX;
-    line-height: 1.6;
-    margin-top: 90px;
-}
-.hlist1 img{
-    width: 230px;
-}
-.dlist1-3{
-    background-color: #FFFFF0;
-    width: 550px;
-    height: 170px;
-    display: flex;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: 120px;
-    margin-top: -23px;
-}
-.hlistA{
-    width: 200px;
-    height: 50px;
-    margin-top: 47px;
-    padding-left: 20px;
-}
-.listh1 p{
-    font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    line-height: 1.6;
-}
-.listh2 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    line-height: 1.6;
-}
-.listh2 li::before{
-    content: "•";
-    color: #88827D;
-}
-.hlistB{
-    width: 200px;
-    height: 100px;
-    margin-top: 45px;
-    padding-left: 47px;
-}
-.listh3 p{
-    font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    margin-bottom: 5px;
-    line-height: 1.6;
-}
-.listh4{
-    display: flex;
-    gap: 10px;
-}
-.listh4 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-.listh4 p{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-/*----------第二頁醫師團隊(玻尿酸)-----------------*/
-.hyaall{
-    background-image: url("第二頁/第二頁背景色.png");
-    width: 1440px;
-    height: 450px;
-    margin: 0 auto;
-}
-
-.hyaA{
-    display: flex;
-    gap: 15px;
-    padding-left: 20px;
-}
-.hyaA img{
-    width: 230px;
-}
-.hyaA h5{
-    font-family: noto sans hk;
-    font-size: 20PX;
-    line-height: 1.6;
-    margin-top: 120px;
-}
-.hylist1-4{
-    background-color: #FFFFF0;
-    width: 550px;
-    height: 170px;
-    display: flex;
-    border-radius: 20px;
-    margin-left: 26px;
-}
-.hyaB{
-    margin-top: 35px;
+    height: 240px;
     padding-left: 25px;
 }
-.hyalist1 p{
+.dlist1-text{
+    border: 1px solid #ccc;
+    background-color: #Fff;
+    width: 270px;
+    height: 750px;
     font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    line-height: 1.6;
+    margin-bottom: 25px;
+
+    padding: 6px;
+    margin-left: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
 }
-.hyalist2 li{
-    font-family: noto sans hk;
+.listp1 h1{
+    font-size: 24px;
+    line-height: 1.6;
+    padding-left: 10px;
+    color: #a74d3a;
+}
+.listp1 p{
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 10px;
+}
+.listp2 li{
     font-size: 16px;
-    color: #88827D;
-    line-height: 1.6;
+    color: #555;
+    line-height: 1.6;     
 }
-.hyalist2 li::before{
-    content: "•";
-    color: #88827D;
+.listp2 li::before{
+    content: '•';
 }
-.hyaC{
-    margin-top: 35px;
-    padding-left: 20px;
+.listB{
+    margin-top: 20px;
 }
-.hyalist3 p{
+.listC{
     font-family: noto sans hk;
-    font-size: 19px;
-    color: #88827D;
-    line-height: 1.6;
+    margin-top: 20px;
 }
-.hyalist4{
+.listp4{
     display: flex;
     gap: 10px;
+    padding-left: 30px;
+}
+.listp4 p{
+    font-size: 16px;
+    background-color: #E3CEC0;
+    color: #88827D;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.listD{
+    margin-top: 20px;
+}
+.listp5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.listp5 img{
+    width: 150px;
+    padding-left: 50px;
+}
+/*----------第二頁醫師團隊(美白)-----------------*/
+.hyaall{
+    background-color: #FFFFF0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1300px;
+}
+.hya1{
+    display: flex;
+    width: 300px;
+    margin-right: px;
+}
+.hya1 img{
+    width: 210px;
+    padding-left: 45PX;
+
+}
+.hya-text{
+    border: 1px solid #ccc;
+    background-color: #Fff;
+    width: 280px;
+    height: 700px;  
+    font-family: noto sans hk;
+    padding: 8px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.listp6 p{
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 10px;
+}
+
+.listp7 li{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+.listp7 li::before{
+    content: '•';
+}
+.listF{
+    margin-top: 20px;
+}
+.listG{
+    margin-top: 20px;
+}
+.listp8{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+}
+.listp8 p{
+    font-size: 16px;
+    background-color: #E3CEC0;
+    color: #88827D;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.listH{
+    margin-top: 20px;
+}
+/*----------第二頁醫師團隊(除毛)-----------------*/
+.hair1{
+    display: flex;
+    width: 280px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.hair1 img{
+    width: 220px;
+}
+.hair1 p{
+    font: 18px noto sans hk;
+    color: #88827D;
+    line-height: 1.6;
+    margin-top: 100px;
+}
+.hair-text{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 280px;
+    height: 700px;  
+    font-family: noto sans hk;
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 16px;
+    box-sizing: border-box;
+}
+/*----------第二頁醫師團隊(玻尿酸)-----------------*/
+.last-text{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 280px;
+    height: 700px;  
+    font-family: noto sans hk;
+    padding: 10px;
+    margin-right: 10px;
     margin-top: 10px;
+    box-sizing: border-box;
 }
-.hyalist4 li{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
-}
-.hyalist4 p{
-    font-family: noto sans hk;
-    font-size: 16px;
-    color: #88827D;
-    background-color:  #E7E3DB;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 20px;
+.last1 img{
+    width: 210px;
 }
 /*----------第三頁服務項目---------------*/
 .picture{

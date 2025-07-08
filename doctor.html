@@ -5,6 +5,8 @@
     <title>Yaoyan Clinic</title>
     <link rel="icon" href="../figma/首頁/iconface.png">
     <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="home.js"></script>
 </head>
 
 <body>
@@ -30,131 +32,208 @@
                             <li><a href="hya.html">玻尿酸</a></li>
                         </ul>
                     </li>   
-
-
                     <li><a href="contact.html">聯絡我們</a></li>
                 </ul>
-
             </div>
-    
-        
         </div>
     </header>
- <!-------------第二部分皮秒---------------------->
+ <!-------------大標題---------------------->
  <section class="doctor-sec">
-    <h1>醫師團隊介紹</h1>
+    <!-- <h1>醫師團隊介紹</h1> -->
+     <div class="four">
+        <img src="第二頁/4人.png" alt="">
+     </div>
  </section>
-
+ <!-------------第二部分皮秒---------------------->
  <section class="dlistall">
-    <div class="dlist1">
-        <h2>皮秒<br>李承睿醫師</h2>
-        <img src="第二頁/皮秒醫師.svg" alt="">
-    </div>
-    <div class="dlist1-1">
-        <div class="listA">
-            <div class="listp1">
-                <p>經歷：</p>
-            </div>
-            <ul class="listp2">
-                <li>國立臺灣大學附設醫院實習醫師</li>
-                <li>中山醫學大學附設醫院住院醫師</li>
-            </ul>
+    <div class="one">
+        <div class="doctor-card">
+                <div class="dlist1">
+                    <img src="第二頁/皮秒醫師.svg" alt="">
+                </div>
+                <div class="dlist1-text doctor-info">
+                    <div class="listA">
+                        <div class="listp1">
+                            <h1>皮秒<br>李承睿醫師</h1>
+                            <p>◎ 醫師學經歷：</p>
+                        </div>
+                        <ul class="listp2">
+                            <li>國立臺灣大學附設醫院實習醫師</li>
+                            <li>中山醫學大學附設醫院住院醫師</li>
+                        </ul>
+                    </div>
+                    <div class="listB">
+                        <div class="listp1">
+                            <p>◎ 專業認證：</p>
+                        </div>
+                    </div>
+                    <div class="listp2">
+                        <ul>
+                            <li>蜂巢皮秒 Picosure 講師</li>
+                            <li>Discovery Pico 探索皮秒講師</li>
+                            <li>Thermage FLX 鳳凰電波認證醫師</li>
+                            <li>愛力根玻尿酸注射原廠認證醫師</li>
+                        </ul>
+                    </div>
+                    <div class="listC">
+                        <div class="listp1">
+                            <p>◎ 專長項目：</p>
+                        </div>
+                        <div class="listp4">
+                            <p>皮秒雷射</p>
+                            <p>海神除毛</p>
+                        </div>
+                    </div>
+                    <div class="listD">
+                        <div class="listp1">
+                            <p>◎ 專業證照：</p>
+                        </div>
+                        <div class="listp5">
+                            <img src="第二頁/1.jpg" alt="證照">
+                        </div>
+                    </div>
+                </div>
         </div>
-        
-        <div class="listB">
-            <div class="listp3">
-                <p>專長：</p>
+       
+        <!----美白-------->
+            <div class="doctor-card">
+                <div class="hya1">
+                    <img src="第二頁/美白點滴醫師.svg" alt="">
+                </div>
+                <div class="hya-text doctor-info">
+                    <div class="listE">
+                        <div class="listp1">
+                            <h1>美白點滴<br>張若彤醫師</h1>
+                            <p>◎ 醫師學經歷：</p>
+                        </div>
+                        <ul class="listp7">
+                            <li>中華民國皮膚科專科醫師</li>
+                            <li>台北榮民總醫院皮膚科總醫師</li>
+                        </ul>
+                    </div>
+                    <div class="listF">
+                        <div class="listp6">
+                            <p>◎ 專業認證：</p>
+                        </div>
+                        <ul class="listp7">
+                            <li>Juvederm®喬雅登玻尿酸注射認證</li>
+                            <li>抗衰老醫學認證</li>
+                            <li>Sculptra舒顏萃注射認證</li>
+                            <li>愛力根玻尿酸注射原廠認證醫師</li>
+                        </ul>
+                    </div>
+                    <div class="listG">
+                        <div class="listp6">
+                            <p>◎ 專長項目：</p>
+                        </div>
+                        <div class="listp8">
+                            <p>美白點滴</p>
+                            <p>玻尿酸注射</p>
+                        </div>
+                    </div>
+                    <div class="listH">
+                        <div class="listp6">
+                            <p>◎ 專業證照：</p>
+                        </div>
+                        <div class="listp5">
+                            <img src="第二頁/2.jpg" alt="證照">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="listp14">
-                <li>皮秒雷射</li>
-                <p>海神除毛</p>
-            </ul>
-        </div>
-    </div>
- </section>
- <!-------------第二部分美白---------------------->
-<section class="whiteall">
-    <div class="whiteA">
-        <img src="第二頁/美白點滴醫師.svg" alt="">
-        <h3>美白點滴<br>張若彤醫師</h3>
-    </div>
-    <div class="dlist1-2">
-        <div class="whiteB">
-            <div class="wlist1">
-                <p>經歷：</p>
-            </div>
-            <ul class="wlist2">
-                <li>中華民國皮膚科專科醫師</li>
-                <li>台北榮民總醫院皮膚科總醫師</li>
-            </ul>
-        </div>
 
-        <div class="whiteC">
-            <div class="wlist3">
-                <p>專長：</p>
+            <!----除毛-------->
+                <div class="doctor-card">
+                    <div class="hair1">
+                        <img src="第二頁/除毛醫師.svg" alt="">
+                    </div>
+                    <div class="hair-text doctor-info">
+                        <div class="listp1">
+                            <h1>海神除毛<br>魏心妍醫師</h1>
+                            <p>◎ 醫師學經歷：</p>
+                        </div>
+                        <ul class="listp7">
+                            <li>台灣外科醫學會專科醫師</li>
+                            <li>中華民國美容醫學會會員</li>
+                        </ul>
+                        <div class="listF">
+                            <div class="listp6">
+                                <p>◎ 專業認證：</p>
+                            </div>
+                            <ul class="listp7">
+                                <li>美國青春痘與酒糟協會會員</li>
+                                <li>臺灣皮膚美容外科醫學會會員</li>
+                                <li>美國BoTox肉毒原廠認證醫師</li>
+                                <li>PicoSure皮秒雷射認證</li>
+                            </ul>
+                        </div>
+                        <div class="listG">
+                            <div class="listp6">
+                                <p>◎ 專長項目：</p>
+                            </div>
+                            <div class="listp8">
+                                <p>海神除毛</p>
+                                <p>皮秒雷射</p>
+                            </div>
+                        </div>
+                        <div class="listH">
+                            <div class="listp6">
+                                <p>◎ 專業證照：</p>
+                            </div>
+                            <div class="listp5">
+                                <img src="第二頁/3.jpg" alt="證照">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!----玻尿酸-------->
+            <div class="doctor-card">
+                <div class="last1">
+                    <img src="第二頁/玻尿酸醫師.svg" alt="">
+                </div>
+                <div class="last-text doctor-info">
+                    <div class="listp1">
+                        <h1>玻尿酸<br>陳宛琳醫師</h1>
+                        <p>◎ 醫師學經歷：</p>
+                    </div>
+                    <ul class="listp7">
+                        <li>中華民國皮膚科專科醫師</li>
+                        <li>台北榮民總醫院皮膚科總醫師</li>
+                    </ul>
+                    <div class="listF">
+                        <div class="listp6">
+                            <p>◎ 專業認證：</p>
+                        </div>
+                        <ul class="listp7">
+                            <li>Cleviel玻尿酸原廠認證醫師</li>
+                            <li>舒顏萃Sculptra 原廠認證醫師</li>
+                            <li>台灣微整形美容醫學會專科醫師</li>
+                            <li>台灣抗衰老再生醫學會</li>
+                        </ul>
+                    </div>
+                    <div class="listG">
+                        <div class="listp6">
+                            <p>◎ 專長項目：</p>
+                        </div>
+                        <div class="listp8">
+                            <p>美白點滴</p>
+                            <p>玻尿酸注射</p>
+                        </div>
+                    </div>
+                    <div class="listH">
+                        <div class="listp6">
+                            <p>◎ 專業證照：</p>
+                        </div>
+                        <div class="listp5">
+                            <img src="第二頁/4.jpg" alt="證照">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="wlist4">
-                <li>美白點滴</li>
-                <p>玻尿酸注射</p>
-            </ul>
-        </div>
-    </div>
+
+    </div>       
 </section>
-<!-------------第三部分除毛---------------------->
-<section class="hairall">
-    <div class="hlist1">
-        <h4>海神除毛<br>魏心妍醫師</h4>
-        <img src="第二頁/除毛醫師.svg" alt="">
-    </div>
-    <div class="dlist1-3">
-        <div class="hlistA">
-            <div class="listh1">
-                <p>經歷：</p>
-            </div>
-            <ul class="listh2">
-                <li>台灣外科醫學會專科醫師</li>
-            </ul>
-        </div>
-        
-        <div class="hlistB">
-            <div class="listh3">
-                <p>專長：</p>
-            </div>
-            <ul class="listh4">
-                <li>海神除毛</li>
-                <p>皮秒雷射</p>
-            </ul>
-        </div>
-    </div>
- </section>
- <!-------------第三部分玻尿酸---------------------->
- <section class="hyaall">
-     <div class="hyaA">
-        <img src="第二頁/玻尿酸醫師.svg" alt="">
-        <h5>玻尿酸<br>陳宛琳醫師</h5>
-    </div>
-    <div class="hylist1-4">
-        <div class="hyaB">
-            <div class="hyalist1">
-                <p>經歷：</p>
-            </div>
-            <ul class="hyalist2">
-                <li>中華民國皮膚科專科醫師</li>
-                <li>台北榮民總醫院皮膚科總醫師</li>
-            </ul>
-        </div>
-
-        <div class="hyaC">
-            <div class="hyalist3">
-                <p>專長：</p>
-            </div>
-            <ul class="hyalist4">
-                <li>美白點滴</li>
-                <p>玻尿酸注射</p>
-            </ul>
-        </div>
-    </div>
- </section>
  <!-------------插入地圖---------------------->
 <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.5055587779661!2d121.54384147116262!3d25.033696772788915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd30b06f9fd%3A0x9a5657a88cfda4bd!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5L-h576p6Lev5Zub5q61MeiZnw!5e0!3m2!1szh-TW!2stw!4v1750233844998!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
@@ -190,5 +269,5 @@
             </ul>
         </div>
     </div>
-
+<script src="home.js"></script>
 </footer>
