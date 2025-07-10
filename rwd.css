@@ -1,0 +1,403 @@
+@media screen and (max-width: 820px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .menu-ham {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        padding: 20px;
+        margin-left: auto;
+    }
+    .bar {
+        width: 25px;
+        height: 4px;
+        background-color: #666;
+        margin: 4px 0;
+        transition: all 0.3s ease;
+    }
+    .menu-ham.active .bar1 {
+       transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .menu-ham.active .bar2 {
+        opacity: 0;
+    }
+    .menu-ham.active .bar3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #fffaf0;
+        z-index: 1000;
+    }
+    .menu.active {
+        display: flex;
+    }
+     .menu.show {
+        display: flex;
+    }
+    .menu li {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .submenu {
+        display: none;
+        flex-direction: column;
+        background: #f9f9f9;
+        margin-top: 5px;
+        padding-left: 20px;  
+        padding-right: 20px;
+        position: static;
+    }
+    .submenu li{
+        padding: 10px 0;
+        text-align: left;
+    }
+    .submenu.active {
+        display: flex;
+    }
+    .dropdown > a::after {
+        content: "▾";
+        padding-left: 5px;
+    }
+    /* banner */
+    .banner{
+        width: 800px;
+    }
+    .banner-text {
+        width: 300px;
+        padding: 0 10px;
+    }
+
+    .banner-text h1 {
+        font-size: 28px;
+    }
+    .banner-text p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* 最新消息 */
+    .news {
+        height: auto;
+        padding: 20px 0;
+    }
+    .news h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    .news img {
+        width: 250px;
+        height: auto;
+        padding: 0 15px;
+    }
+    .newthing {
+        padding: 20px;
+    }
+    .news1, .news2, .news3 {
+        margin-top: 20px;
+    }
+    .news1 a, .news2 a, .news3 a {
+        font-size: 20px;
+    }
+    /* 醫師團隊 */
+    .doctor {
+        border-radius: none;
+        height: auto;
+        padding: 20px 25px;
+        flex-wrap: wrap;
+    }
+
+    .doctors-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        
+    }
+    .doctor-list h4{
+        font-size: 32px;
+        text-align: center;
+    }
+    .doctor-list p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .card {
+        max-width: 100%;
+    }
+    /* 環境照片 */
+    .spaceall {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    .space-1 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main-photo img {
+        height: auto;
+        object-fit: contain;
+    }
+    .thumbnails {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .thumb {
+        width: 80px;
+        height: 60px;
+    }
+    /* 地圖 */
+    .map iframe {
+        height: 250px;
+    }
+    /* footer */
+    .last-footer{
+        height: auto;
+    }
+    .contact-box {
+        flex-direction: column;
+        padding: 40px 5px;
+        gap: 30px;
+    }
+    .btn {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .iconall {
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .phone-list {
+        padding: 0 10px;
+    }
+    .phone ul li {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 25px;
+    }
+    /* 第二頁醫師介紹 */
+    .dlistall .one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+    .doctor-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+    }
+    .doctor-card img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .doctor-info {
+        width: 100%;
+        margin-left: 80px;
+        padding-top: 20px;
+    }
+    .doctor-info h1 {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    .dlist1 img{
+        padding-left: 100px;
+    }
+    .doctor-info p, .doctor-info li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    ul {
+        padding-left: 0;
+        list-style-position: inside;
+    }
+    .listp4, .listp8 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 10px 10px;
+    }
+    .listp4 p, .listp8 p {
+        background: #f3f3f3;
+        padding: 6px 5px;
+        border-radius: 20px;
+    }
+    .listp5 img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 8px;
+        margin: 10px 27px;
+    }
+    .hya1 img{
+        padding-left: 100px;
+        margin-top: 10px;
+    }
+    .hair1 img{
+        padding-left: 90px;
+    }
+    .last1 img{
+        padding-left: 90px; 
+    }
+    /* 第三頁服務項目 */
+    
+
+
+
+
+
+
+
+
+
+     /* 聯絡我們 */
+    .cspace {
+        height: auto;
+        max-width: 95%;
+        padding: 20px 10px;
+    }
+    .csphoto {
+        align-items: center;
+    }
+    .csphoto h1 {
+        padding-left: 90px;
+        padding-bottom: 100px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .csphoto img {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 20px;
+        margin-left: 80px;
+    }
+    .contcat-f {
+        width: 95%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .CGall {
+        gap: 3rem;
+        padding-left: 10px;
+    }
+    .contactA {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .contactA input {
+        width: 100%;
+        margin-left: 0;
+    }
+    .genderA {
+        padding: 10px 0 20px 0;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+    .genderA label {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .center {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .center label {
+        padding-left: 8px;
+        font-size: 16px;
+    }
+    .center input {
+        width: 750px;
+        margin-left: 0;
+    }
+    .timeconA {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .timecona label {
+        padding-left: 17px;
+        font-size: 16px;
+    }
+    .time {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+    }
+    .time label {
+        padding-left: 15px;
+    }
+    .messall {
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+    .messB textarea {
+        width: 730px;
+        height: 150px;
+    }
+    .messA label {
+        font-size: 16px;
+    }
+    button {
+        width: 50%;
+        margin-left: 190px;
+        margin-top: 20px;
+        height: 45px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+

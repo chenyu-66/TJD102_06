@@ -30,7 +30,30 @@ $(document).ready(function() {
   });
 });
 
+/*------------漢堡選單-------------------*/
+$(function () {
+  $('.menu-ham').click(function () {
+    $(this).toggleClass('active');
+    $('.menu').toggleClass('show');
+  });
 
+  // 手機版 submenu 展開，不跳頁，也不自動收回
+  $('.dropdown > a').click(function (e) {
+    if (window.innerWidth <= 820) {
+      e.preventDefault(); // 阻止跳頁
+
+      const parentLi = $(this).parent(); // li.dropdown
+      const submenu = $(this).siblings('.submenu');
+
+      // 先關掉其他展開的 submenu（如果你只想允許展開一個的話）
+      $('.dropdown').not(parentLi).removeClass('submenu-open').find('.submenu').slideUp();
+
+      // toggle 展開狀態
+      parentLi.toggleClass('submenu-open');
+      submenu.stop(true, true).slideToggle();
+    }
+  });
+});
 
 
 
