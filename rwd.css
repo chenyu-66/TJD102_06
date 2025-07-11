@@ -66,6 +66,9 @@
         content: "▾";
         padding-left: 5px;
     }
+    .dropdown:hover .submenu {
+        display: none !important; 
+    }
     /* banner */
     .banner{
         width: 800px;
@@ -74,7 +77,6 @@
         width: 300px;
         padding: 0 10px;
     }
-
     .banner-text h1 {
         font-size: 28px;
     }
@@ -82,7 +84,6 @@
         font-size: 16px;
         line-height: 1.6;
     }
-
     /* 最新消息 */
     .news {
         height: auto;
@@ -113,11 +114,9 @@
         padding: 20px 25px;
         flex-wrap: wrap;
     }
-
     .doctors-list {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
-        
     }
     .doctor-list h4{
         font-size: 32px;
@@ -218,7 +217,7 @@
         font-size: 14px;
         line-height: 1.6;
     }
-    ul {
+    ul{
         padding-left: 0;
         list-style-position: inside;
     }
@@ -251,17 +250,104 @@
         padding-left: 90px; 
     }
     /* 第三頁服務項目 */
-    
-
-
-
-
-
-
-
-
-
-     /* 聯絡我們 */
+    section {
+        text-align: center;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+    .pic-2{
+        text-align: left;
+    }
+    .sec-1{
+        text-align: left;
+        width: 200px;
+        padding-left: 0;
+        margin-left: 50px;
+    }
+    .sec-2 img{
+       margin-left: 8px;
+    }
+    .thi-1 img{
+        padding-left: 20px;
+    }
+    .thi-2{
+        text-align: left;
+        width: 400px;
+        padding-left: 0;
+    }
+    .for-1{
+        text-align: left;
+        width: 320px;
+        font-size: 14px;
+    }
+    /* 皮秒雷射 */
+    .machine{
+        padding-left: 80px;
+    }
+    .introduce img{
+        width: 150px;
+    }
+     /* 海神除毛 */
+    .h-top{
+        height: 200px;
+    }
+    .h-top1 h1{
+        font-size: 28px;
+    }
+    .h-top1 p{
+        text-align: center;
+        width: 500px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .h-photo1 img{
+        width: 300px;
+    }
+    .h-photo1 p{
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    /* 玻尿酸 */
+    .hyatop1 h1{
+        font-size: 28px;
+    }
+    .hyatop1 p{
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .juve{
+        height: auto;
+        padding: 20px 15px;
+    }
+    .juve-all{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .juve-text{
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .juve-text h2{
+        font-size: 22px;
+    }
+    .juve-text p{
+        font-size: 16px;
+        line-height: 1.8;
+        padding: 0 10px;
+    }
+    .juve-pho img{
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+    /* 聯絡我們 */
+    .contaceall{
+        padding-top: 0;
+    }
     .cspace {
         height: auto;
         max-width: 95%;
@@ -287,7 +373,7 @@
         height: auto;
         padding: 20px 10px;
     }
-    .CGall {
+    .CGall{
         gap: 3rem;
         padding-left: 10px;
     }
@@ -321,7 +407,7 @@
         font-size: 16px;
     }
     .center input {
-        width: 750px;
+        width: 700px;
         margin-left: 0;
     }
     .timeconA {
@@ -346,7 +432,7 @@
         margin-top: 20px;
     }
     .messB textarea {
-        width: 730px;
+        width: 700px;
         height: 150px;
     }
     .messA label {
@@ -354,7 +440,7 @@
     }
     button {
         width: 50%;
-        margin-left: 190px;
+        margin-left: 30px;
         margin-top: 20px;
         height: 45px;
         font-size: 18px;
