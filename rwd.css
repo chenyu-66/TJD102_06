@@ -54,6 +54,7 @@
         padding-left: 20px;  
         padding-right: 20px;
         position: static;
+        transition: all 0.3s ease;
     }
     .submenu li{
         padding: 10px 0;
@@ -446,16 +447,592 @@
         font-size: 18px;
         border-radius: 20px;
     }
-
-
-
-
-
-
-
-
-
-
+}
+/*-------------最大430--------------------------*/
+@media screen and (max-width: 431px) {
+    body{
+        overflow-x: hidden ;
+    }
+    .banner img{
+       display: none !important;
+    }
+    .banner-text{
+        position: static !important;  
+        width: 100% !important;
+        max-width: 430px;
+        padding: 10px;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .banner-text p{
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+        padding-left: 34px;
+        width: 350px;
+    }
+    /*---------最新消息-----------------*/
+    .news{
+        height: 300px;
+    }
+    .news h2{
+        font-size: 20px;
+        text-align:start;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .news a{
+        font-size: 15px;
+        display: block;
+        line-height: 1.5;
+    }
+    .news img{
+        display: none !important;
+    }
+    .newthing{
+        text-align: left;
+        padding-top: 10px;
+    }
+    /*---------醫師團隊-----------------*/
+    .doctor{
+        border-radius: 0;
+    }
+    .doctor-list{
+        padding-bottom: 10px;
+    }
+    .doctor-list h4{
+        font-size: 20px;
+        text-align: left;
+    }
+    .doctor-list p{
+        font-size: 16px;
+        line-height: 0;
+        text-align: left;
+    }
+    .doctors-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 12px;
+        justify-items: center;
+    }
+    .card{
+        width: 100px;
+        margin-right: 25px;
+    }
+    .card p{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+    }
+    .card img{
+        width: 100px;   
+        height: auto;
+    }
+    /*---------環境照片-----------------*/
+    .space-list{
+        padding-bottom: 0;
+    }
+    .space-list h3{
+        font-size: 20px;
+        text-align: left;
+    }
+    .space-list p{
+        font-size: 16px;
+        text-align: left;
+    }
+    .main-photo img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto;
+    }
+    .thumbnails{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    /*---------醫師介紹-----------------*/
+    .doctor-sec{
+        height: 250px;
+        margin: 0 
+    }
+    .four img{
+        width: 420px;
+        margin: 0;
+    }
+    .dlistall{
+        height: 1650px;
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        justify-items: center;
+        padding: 10px;
+    }
+    .doctor-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 180px;
+        height: 500px;
+        /* border-radius: 10px; */
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+    .dlist1-text .doctor-info{
+        width: 100% !important;
+        height: auto !important;
+        font-size: 14px;
+        padding-left: 0;
+        /* margin: 10px 0 0 0 !important; */
+        box-sizing: border-box;
+    }
+   .hya-text, .hair-text, .last-text {
+        width: 100% !important;
+        height: auto !important;
+        font-size: 14px;
+        padding: 8px;
+        margin: 8px 0 0 0 !important;
+        box-sizing: border-box;
+    }
+    /*--------------------------------*/
+    .listp1 h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .listp1 p, .listp6 p {
+        font-size: 12px;
+        margin: 6px 0;
+    }
+    .listp2 li, .listp7 li {
+        font-size: 12px;
+    }
+    .listp4, .listp8 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .listp4 p, .listp8 p {
+        width: auto;
+        padding: 0 10px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    .listp5 img {
+        width: 100px;
+        padding-left: 30px;
+        margin: 0;
+    }
+    .dlist1 img{
+        width: 170px;
+        height: auto;
+        display: block;
+        padding-left: 80px;
+        margin-top: -50px;
+    }
+    .doctor-info{
+        margin: 0;
+        margin-top: -45px;
+        padding: 0;
+    }
+    /*-----------------------------*/
+    .hya1 img{
+        width: 150px;
+        height: auto;
+        display: block;
+        padding-left: 80px;
+        margin-top: -50px;
+    }
+    .hya-text .doctor-info{
+        margin: 0;
+        margin-top: -72px;
+        padding: 0;
+    }
+    /*------------------------------*/
+    .hair1 img{
+        width: 150px;
+        height: auto;
+        display: block;
+        padding-left: 55px;
+        margin-top: 280px;
+    }
+    .last1 img{
+        width: 150px;
+        height: auto;
+        display: block;
+        padding-left: 0;
+        margin-top: 272px;
+    }
+    /*---------服務項目-----------------*/
+    .picture{
+        height: 100px;
+    }
+    .picture h1{
+        font-size: 30px;
+        padding-right: 125px;
+    }
+    .picture h2{
+        font-size: 20px;
+        padding-right: 125px;
+    }
+    /*------------------------------*/
+    .picall{
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .pic-2{
+        width: 200px;
+        padding-right: 0;
+    }
+    .pic-1 img{
+        max-width: 100px; 
+        margin-bottom: 15px;
+        margin-left: 130px;
+    }
+    .pic-2 h3{
+        font-size: 20px;
+    }
+    .pic-2 p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .pic-2 a{
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 60px;
+    }
+    .second{
+        flex-direction: column-reverse;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .sec-1{
+        margin: 0;
+    }
+    .sec-1 h4{
+        font-size: 20px;
+    }
+    .sec-1 p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .sec-1 a{
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 60px;
+    }
+    .sec-2 img{
+        max-width: 150px; 
+        margin: 0;
+        margin-right: 40px;
+    }
+    .third{
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .thi-1 img{
+        max-width: 150px; 
+        margin: 0;
+        margin-right: 65px;
+    }
+    .thi-2{
+        padding-left: 250px;
+    }
+    .thi-2 h5{
+        font-size: 20px;
+    }
+    .thi-2 p{
+        font-size: 14px;
+        line-height: 1.5;
+        width: 180px;
+    }
+    .thi-2 a{
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 60px;
+    }
+    .forth{
+        flex-direction: column-reverse;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .for-1{
+        padding-left: 95px;
+    }
+    .for-1 h6{
+        font-size: 20px;
+    }
+    .for-1 p{
+        font-size: 14px;
+        line-height: 1.5;
+        width: 180px;
+    }
+    .for-1 a{
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 60px;
+    }
+    .for-2 img{
+        max-width: 150px; 
+        margin: 0;
+        margin-right: 65px;
+    }
+    /*---------皮秒雷射-----------------*/
+    .p-top{
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .p-top h1{
+        font-size: 22px;
+        margin-bottom: 12px;
+        color: #88827D;
+    }
+    .p-top p{
+        width: 300px;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #88827D;
+        padding-left: 65px;
+    }
+    .machine{
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .introduce img{
+        width: 80%;
+        max-width: 150px;
+        height: auto;
+        margin-bottom: 15px;
+        padding-left: 10px;
+    }
+    .introduce p{
+        font-size: 14px;
+        line-height: 1.6;
+        color: #88827D;
+        text-align: left;
+    }
+    .top-tab{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 20px 0;
+        padding-right: 10px;
+        align-items: center;
+    }
+    .top-tab label {
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: #555;
+        width: 100px;
+        text-align: center;
+    }
+    .tab-content{
+        padding: 0 10px;
+    }
+    .tab-panel ul {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #88827D;
+    }
+    .tab-panel .notice-pre{
+        padding-right: 10px;
+        width: 400px;
+    }
+    .share{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .photo1 img, .photo2 img, .photo3 img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .photo1, .photo2, .photo3{
+        width: 100%;
+        max-width: 300px;
+    }
+    /*---------美白點滴-----------------*/
+    .w-top1 h1{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .w-top1 p{
+        font-size: 14px;
+        line-height: 1.6;
+        width: 300px;
+        text-align: center;
+        padding-left: 35px;
+    }
+    /*---------海神除毛-----------------*/
+    .h-top1 h1{
+        font-size: 22px;
+    }
+    .h-top1 p{
+        font-size: 14px;
+        width: 350px;
+    }
+    .h-photo{
+        padding: 0;
+    } 
+    .h-photo img{
+        width: 470px;
+        margin-top: -20px;
+    }
+    .h-photocenter{
+        padding: 0;
+        width: 0;
+    }
+    .h-photo1{
+        padding: 0;
+    }
+    .h-photo1 img{
+        width: 320px;
+        padding: 0;
+        margin: 0;
+    }
+    .h-photo1 p{
+        display: none;
+    }
+    .top-tab{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 20px 0;
+        padding-right: 10px;
+        align-items: center;
+    }
+    .tab-content{
+        height: auto;
+        padding: 0 10px;
+    }
+    .top-tab label{
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: #555;
+        width: 100px;
+        text-align: center;
+    }
+    .tab-panel ul {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .tab-panel ul li {
+        font-size: 14px;
+        padding: 10px 5px;
+        line-height: 1.5;
+    }
+    /*---------玻尿酸-----------------*/
+    .hya-top{
+        height: 170px;
+    }
+    .hyatop1 h1{
+        font-size: 22px;
+    }
+    .hyatop1 p{
+        font-size: 16px;
+        width: 350px;
+    }
+    .juve{
+        padding: 0;
+    }
+    .juve-text h2{
+        font-size: 22px;
+    }
+    .juve-text p{
+        font-size: 16px;
+        width: 300px;
+        padding: 0;
+    }
+    .fill{
+        padding: 0;
+    }
+    .fill-1 img{
+        width: 450px;
+    }
+    .top-tab{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 20px 0;
+        padding-right: 10px;
+        align-items: center;
+    }
+    .tab-content{
+        height: auto;
+        padding: 0 10px;
+    }
+    .top-tab label{
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: #555;
+        width: 100px;
+        text-align: center;
+    }
+    .tab-panel ul {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .tab-panel ul li {
+        font-size: 14px;
+        padding: 10px 5px;
+        line-height: 1.5;
+    }
+    .photo1 img, .photo2 img, .photo3 img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .photo1, .photo2, .photo3{
+        width: 100%;
+        max-width: 300px;
+    }
+    /*---------聯絡我們-----------------*/
+    .cspace{
+        display: none;
+    }
+    .csphoto h1{
+        display: none;
+    }
+    .csphoto img{
+        display: none;
+    }
+    .genderA{
+        flex-direction: column;
+        gap: 3px;
+        display: block;
+        text-align: left;
+    }
+    .center label{
+        text-align: left;
+    }
+    .center input{
+        width: 370px;
+    }
+    .messB textarea{
+        width: 300px;
+    }
+    button{
+        width: 90px;
+        font-size: 14px;
+    }
 
 }
 
@@ -476,8 +1053,6 @@
 
 
 
-
-}
 
 
 
