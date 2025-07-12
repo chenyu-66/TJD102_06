@@ -472,7 +472,7 @@
         font-size: 14px;
         text-align: center;
         line-height: 1.6;
-        padding-left: 30px;
+        padding-left: 15px;
         width: 350px;
     }
     /*---------最新消息-----------------*/
@@ -519,6 +519,7 @@
         gap: 12px;
         justify-items: center;
         padding-right: 40px;
+        
     }
     .card{
         width: 100px;
@@ -561,7 +562,7 @@
     }
     /*---------醫師介紹-----------------*/
     .doctor-sec{
-        height: 250px;
+        height: 220px;
         margin: 0;
         padding: 0;
     }
@@ -579,7 +580,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         justify-items: center;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .doctor-card{
         display: flex;
@@ -652,7 +653,7 @@
     }
     /*-----------------------------*/
     .hya1 img{
-        width: 150px;
+        width: 163px;
         height: auto;
         display: block;
         padding-left: 80px;
@@ -662,6 +663,9 @@
         margin: 0;
         margin-top: -72px;
         padding: 0;
+    }
+    .hya-text{
+        margin: -7px 0 0 0 !important;
     }
     /*------------------------------*/
     .hair1 img{
@@ -1037,7 +1041,7 @@
         text-align: left;
     }
     .center input{
-        width: 350px;
+        width: 330px;
     }
     .messB textarea{
         width: 300px;
