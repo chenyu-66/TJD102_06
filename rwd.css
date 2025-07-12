@@ -466,12 +466,13 @@
     .banner-text h1{
         font-size: 22px;
         text-align: center;
+        padding-right: 30px;
     }
     .banner-text p{
         font-size: 14px;
         text-align: center;
         line-height: 1.6;
-        padding-left: 34px;
+        padding-left: 30px;
         width: 350px;
     }
     /*---------最新消息-----------------*/
@@ -517,6 +518,7 @@
         grid-template-columns: repeat(2, 1fr); 
         gap: 12px;
         justify-items: center;
+        padding-right: 40px;
     }
     .card{
         width: 100px;
@@ -560,14 +562,17 @@
     /*---------醫師介紹-----------------*/
     .doctor-sec{
         height: 250px;
-        margin: 0 
+        margin: 0;
+        padding: 0;
     }
     .four img{
         width: 420px;
         margin: 0;
+        /* padding-right: 10px; */
     }
     .dlistall{
         height: 1650px;
+        padding: 0;
     }
     .one{
         display: grid;
@@ -638,7 +643,7 @@
         height: auto;
         display: block;
         padding-left: 80px;
-        margin-top: -50px;
+        margin-top: -37px;
     }
     .doctor-info{
         margin: 0;
@@ -651,7 +656,7 @@
         height: auto;
         display: block;
         padding-left: 80px;
-        margin-top: -50px;
+        margin-top: -35px;
     }
     .hya-text .doctor-info{
         margin: 0;
@@ -804,7 +809,7 @@
         font-size: 14px;
         line-height: 1.6;
         color: #88827D;
-        padding-left: 65px;
+        padding-left: 57px;
     }
     .machine{
         padding: 20px 10px;
@@ -841,12 +846,13 @@
         text-align: center;
     }
     .tab-content{
-        padding: 0 10px;
     }
-    .tab-panel ul {
+    .tab-panel ul{
         font-size: 14px;
         line-height: 1.6;
         color: #88827D;
+        
+        width: 400px;
     }
     .tab-panel .notice-pre{
         padding-right: 10px;
@@ -874,7 +880,7 @@
         line-height: 1.6;
         width: 300px;
         text-align: center;
-        padding-left: 35px;
+        padding-left: 25px;
     }
     /*---------海神除毛-----------------*/
     .h-top1 h1{
@@ -883,6 +889,7 @@
     .h-top1 p{
         font-size: 14px;
         width: 350px;
+        padding-right: 10px;
     }
     .h-photo{
         padding: 0;
@@ -890,6 +897,7 @@
     .h-photo img{
         width: 470px;
         margin-top: -20px;
+        object-fit: cover;
     }
     .h-photocenter{
         padding: 0;
@@ -899,9 +907,11 @@
         padding: 0;
     }
     .h-photo1 img{
-        width: 320px;
-        padding: 0;
-        margin: 0;
+        width: auto;
+        height: auto;
+        transform: scale(1.3); 
+        padding-top: 15px;
+        transform-origin: center;
     }
     .h-photo1 p{
         display: none;
@@ -910,7 +920,7 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
-        margin: 20px 0;
+        margin: -17px 0;
         padding-right: 10px;
         align-items: center;
     }
@@ -943,10 +953,12 @@
     }
     .hyatop1 h1{
         font-size: 22px;
+        padding-right: 10px;
     }
     .hyatop1 p{
         font-size: 16px;
         width: 350px;
+        padding-right: 10px;
     }
     .juve{
         padding: 0;
@@ -964,6 +976,7 @@
     }
     .fill-1 img{
         width: 450px;
+        
     }
     .top-tab{
         display: flex;
@@ -1024,7 +1037,7 @@
         text-align: left;
     }
     .center input{
-        width: 370px;
+        width: 350px;
     }
     .messB textarea{
         width: 300px;
@@ -1032,6 +1045,7 @@
     button{
         width: 90px;
         font-size: 14px;
+        margin-left: 10px;
     }
 
 }
